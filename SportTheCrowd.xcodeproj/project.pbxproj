@@ -12,6 +12,8 @@
 		5A004FB11CF2DBDC007E634E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A004FAF1CF2DBDC007E634E /* Login.storyboard */; };
 		5A004FB31CF2DBDC007E634E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A004FB21CF2DBDC007E634E /* Assets.xcassets */; };
 		5A004FB61CF2DBDC007E634E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A004FB41CF2DBDC007E634E /* LaunchScreen.storyboard */; };
+		5A004FCF1CF2E199007E634E /* CGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A004FCE1CF2E199007E634E /* CGLoginViewController.m */; };
+		5A004FD11CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A004FD01CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		5A004FB21CF2DBDC007E634E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A004FB51CF2DBDC007E634E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A004FB71CF2DBDC007E634E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A004FCD1CF2E199007E634E /* CGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLoginViewController.h; sourceTree = "<group>"; };
+		5A004FCE1CF2E199007E634E /* CGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLoginViewController.m; sourceTree = "<group>"; };
+		5A004FD01CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +60,10 @@
 		5A004FA51CF2DBDC007E634E /* SportTheCrowd */ = {
 			isa = PBXGroup;
 			children = (
-				5A004FBE1CF2DC1D007E634E /* JCFinder */,
-				5A004FBD1CF2DC0A007E634E /* XGFinder */,
-				5A004FBF1CF2DC70007E634E /* Story */,
+				5A004FD21CF2FFB8007E634E /* SDK */,
+				5A004FC61CF2E04E007E634E /* CGFinder */,
+				5A004FC91CF2E04E007E634E /* Model */,
+				5A004FCA1CF2E04E007E634E /* XGFinder */,
 				5A004FA61CF2DBDC007E634E /* Supporting Files */,
 			);
 			path = SportTheCrowd;
@@ -66,9 +72,11 @@
 		5A004FA61CF2DBDC007E634E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A004FAF1CF2DBDC007E634E /* Login.storyboard */,
 				5A004FA91CF2DBDC007E634E /* AppDelegate.h */,
 				5A004FAA1CF2DBDC007E634E /* AppDelegate.m */,
 				5A004FB21CF2DBDC007E634E /* Assets.xcassets */,
+				5A004FD01CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg */,
 				5A004FB41CF2DBDC007E634E /* LaunchScreen.storyboard */,
 				5A004FB71CF2DBDC007E634E /* Info.plist */,
 				5A004FA71CF2DBDC007E634E /* main.m */,
@@ -76,74 +84,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5A004FBD1CF2DC0A007E634E /* XGFinder */ = {
+		5A004FC61CF2E04E007E634E /* CGFinder */ = {
 			isa = PBXGroup;
 			children = (
-				5A004FC31CF2DCC9007E634E /* View */,
-				5A004FC51CF2DCD7007E634E /* Controller */,
-				5A004FC41CF2DCCF007E634E /* Model */,
+				5A004FC71CF2E04E007E634E /* Controller */,
+				5A004FC81CF2E04E007E634E /* View */,
 			);
-			name = XGFinder;
+			path = CGFinder;
 			sourceTree = "<group>";
 		};
-		5A004FBE1CF2DC1D007E634E /* JCFinder */ = {
+		5A004FC71CF2E04E007E634E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5A004FC21CF2DCBE007E634E /* View */,
-				5A004FC11CF2DCAC007E634E /* Controller */,
-				5A004FC01CF2DCA2007E634E /* Model */,
+				5A004FCD1CF2E199007E634E /* CGLoginViewController.h */,
+				5A004FCE1CF2E199007E634E /* CGLoginViewController.m */,
 			);
-			name = JCFinder;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		5A004FBF1CF2DC70007E634E /* Story */ = {
+		5A004FC81CF2E04E007E634E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5A004FAF1CF2DBDC007E634E /* Login.storyboard */,
 			);
-			name = Story;
+			path = View;
 			sourceTree = "<group>";
 		};
-		5A004FC01CF2DCA2007E634E /* Model */ = {
+		5A004FC91CF2E04E007E634E /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		5A004FC11CF2DCAC007E634E /* Controller */ = {
+		5A004FCA1CF2E04E007E634E /* XGFinder */ = {
 			isa = PBXGroup;
 			children = (
+				5A004FCB1CF2E04E007E634E /* Controller */,
+				5A004FCC1CF2E04E007E634E /* View */,
 			);
-			name = Controller;
+			path = XGFinder;
 			sourceTree = "<group>";
 		};
-		5A004FC21CF2DCBE007E634E /* View */ = {
+		5A004FCB1CF2E04E007E634E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = View;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		5A004FC31CF2DCC9007E634E /* View */ = {
+		5A004FCC1CF2E04E007E634E /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
-		5A004FC41CF2DCCF007E634E /* Model */ = {
+		5A004FD21CF2FFB8007E634E /* SDK */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		5A004FC51CF2DCD7007E634E /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Controller;
+			path = SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +205,7 @@
 			files = (
 				5A004FB61CF2DBDC007E634E /* LaunchScreen.storyboard in Resources */,
 				5A004FB31CF2DBDC007E634E /* Assets.xcassets in Resources */,
+				5A004FD11CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg in Resources */,
 				5A004FB11CF2DBDC007E634E /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A004FCF1CF2E199007E634E /* CGLoginViewController.m in Sources */,
 				5A004FAB1CF2DBDC007E634E /* AppDelegate.m in Sources */,
 				5A004FA81CF2DBDC007E634E /* main.m in Sources */,
 			);
