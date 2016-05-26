@@ -13,7 +13,7 @@
 		5A004FB31CF2DBDC007E634E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A004FB21CF2DBDC007E634E /* Assets.xcassets */; };
 		5A004FB61CF2DBDC007E634E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A004FB41CF2DBDC007E634E /* LaunchScreen.storyboard */; };
 		5A004FCF1CF2E199007E634E /* CGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A004FCE1CF2E199007E634E /* CGLoginViewController.m */; };
-		5A004FD11CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A004FD01CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg */; };
+		5A42EF191CF68CF80001A6B0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A42EF181CF68CF80001A6B0 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		5A004FB71CF2DBDC007E634E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A004FCD1CF2E199007E634E /* CGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLoginViewController.h; sourceTree = "<group>"; };
 		5A004FCE1CF2E199007E634E /* CGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLoginViewController.m; sourceTree = "<group>"; };
-		5A004FD01CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg"; sourceTree = "<group>"; };
+		5A42EF181CF68CF80001A6B0 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				5A004FAF1CF2DBDC007E634E /* Login.storyboard */,
+				5A42EF181CF68CF80001A6B0 /* Home.storyboard */,
 				5A004FA91CF2DBDC007E634E /* AppDelegate.h */,
 				5A004FAA1CF2DBDC007E634E /* AppDelegate.m */,
 				5A004FB21CF2DBDC007E634E /* Assets.xcassets */,
-				5A004FD01CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg */,
 				5A004FB41CF2DBDC007E634E /* LaunchScreen.storyboard */,
 				5A004FB71CF2DBDC007E634E /* Info.plist */,
 				5A004FA71CF2DBDC007E634E /* main.m */,
@@ -96,8 +96,7 @@
 		5A004FC71CF2E04E007E634E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5A004FCD1CF2E199007E634E /* CGLoginViewController.h */,
-				5A004FCE1CF2E199007E634E /* CGLoginViewController.m */,
+				5A42EF171CF68CE10001A6B0 /* Login */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -144,6 +143,15 @@
 			children = (
 			);
 			path = SDK;
+			sourceTree = "<group>";
+		};
+		5A42EF171CF68CE10001A6B0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5A004FCD1CF2E199007E634E /* CGLoginViewController.h */,
+				5A004FCE1CF2E199007E634E /* CGLoginViewController.m */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +213,8 @@
 			files = (
 				5A004FB61CF2DBDC007E634E /* LaunchScreen.storyboard in Resources */,
 				5A004FB31CF2DBDC007E634E /* Assets.xcassets in Resources */,
-				5A004FD11CF2EFBC007E634E /* 04ddce194a85b9824b9a6a0f0e58c02a0280deb95cbe7-dovPAU_fw658.jpg in Resources */,
 				5A004FB11CF2DBDC007E634E /* Login.storyboard in Resources */,
+				5A42EF191CF68CF80001A6B0 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +378,7 @@
 				5A004FBC1CF2DBDC007E634E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
